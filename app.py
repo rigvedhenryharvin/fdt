@@ -98,6 +98,11 @@ def main():
 
     if audio_files:
         keywords = [
+            'Class after token payment',
+            'Upfront Payment',
+            'Bootcamp',
+            'Token amount is refundable',
+            'Get server after 50 percent of total fee',
             'Job guarantee',
             '100% placement guarantee',
             'Personal account',
@@ -120,7 +125,14 @@ def main():
             'Free Days',
             'Free trial',
             'Trial classes',
-            '+ 45 Days Trial Classes'
+            '+ 45 Days Trial Classes',
+            'Free',
+            'Free Days',
+            'Free trial',
+            'Trial classes',
+            'My account',
+            'First month free',
+            'Free services'
         ]
 
         results = process_audio_files(audio_files, keywords)
