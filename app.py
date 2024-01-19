@@ -138,6 +138,13 @@ def main():
         results = process_audio_files(audio_files, keywords)
         result_df = pd.DataFrame(results)
         st.write(result_df)
+        csv_data = result_df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="Download DataFrame as CSV",
+            data=csv_data,
+            file_name="audio_fraud_detection_results.csv",
+            key="download_button"
+        )
 
 if __name__ == "__main__":
     main()
