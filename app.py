@@ -132,7 +132,9 @@ def main():
             'Trial classes',
             'My account',
             'First month free',
-            'Free services'
+            'Free services',
+            'cancellation policy',
+            'Cancel'
         ]
 
         results = process_audio_files(audio_files, keywords)
