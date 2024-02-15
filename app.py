@@ -130,7 +130,11 @@ def main():
             'First month free',
             'Free services',
             'cancellation policy',
-            'Cancel'
+            'Cancel',
+            'Global',
+            'HANA',
+            'Server',
+            'Software'
         ]
 
         results = process_audio_files(audio_files, keywords)
